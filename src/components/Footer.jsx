@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
   return (
-    <div className="bg-cover bg-center p-10 mt-5" style={{ backgroundImage: "url('src/assets/footer.jpeg')" }}>
+    <div className="bg-cover bg-center p-10 mt-5" style={{ backgroundImage: "url('footer.jpeg')" }}>
       <div className="max-w-screen-xl mx-auto text-white">
         <div className="flex flex-col md:flex-row justify-between">
         
@@ -36,7 +36,7 @@ function Footer() {
               <li>Contact Us</li>
             </ul>
             <div className="mt-4">
-              <img src="src/assets/googlePlay.png" alt="Google Play" className="w-32" />
+              <img src="googlePlay.png" alt="Google Play" className="w-32" />
             </div>
           </div>
 

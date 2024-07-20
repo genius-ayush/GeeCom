@@ -14,7 +14,7 @@ function Header() {
     <div className="h-20 2xl:h-32 w-full p-3 fixed top-0  bg-white z-50">
       <div className="p-5 flex items-center">
         <img
-          src="/src/assets/logo.png"
+          src="logo.png"
           alt=""
           className="h-12 md:h-20 2xl:ml-96"
         />
@@ -29,7 +29,7 @@ function Header() {
               <div>contact@geecomindia.com</div>
             </div>
             <div className="flex">
-              <img src="/src/assets/googlePlay.png" alt="" className="h-10" />
+              <img src="googlePlay.png" alt="" className="h-10" />
             </div>
           </div>
           <div className="hidden lg:flex gap-6 p-2 ml-80 text-xs xl:text-sm">
