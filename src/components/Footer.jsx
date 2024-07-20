@@ -36,7 +36,7 @@ function Footer() {
               <li>Contact Us</li>
             </ul>
             <div className="mt-4">
-              <img src="/src/assets/googlePlay.png" alt="Google Play" className="w-32" />
+              <img src="src/assets/googlePlay.png" alt="Google Play" className="w-32" />
             </div>
           </div>
 
@@ -47,7 +47,6 @@ function Footer() {
             <div className="flex mt-4">
               <input type="email" placeholder="Enter your email" className="bg-transparent p-2 rounded-l-md focus:outline-none" />
               <button className="bg-[#8ec53e] p-2 rounded-r-md">
-                {/* <img src="" alt="" /> */}
                 <svg xmlns="" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                 </svg>
