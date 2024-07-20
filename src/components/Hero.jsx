@@ -40,7 +40,7 @@ function Hero() {
       <Carousel>
         {slides.map((slide, index) => (
           <div key={index} className="relative h-full">
-            <img src={`./src/assets/${slide.src}`} alt="..." className="object-fill w-full h-full" />
+            <img src={`/src/assets/${slide.src}`} alt="..." className="object-fill w-full h-full" />
             <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 text-white p-4">
               <h2 className="text-lg sm:text-sm md:text-2xl lg:text-3xl xl:text-4xl font-bold text-center">{slide.heading}</h2>
               <p className="mt-2 sm:mt-4 text-center text-sm sm:text-sm md:text-lg lg:text-xl xl:text-2xl">{slide.text}</p>
